@@ -1,5 +1,5 @@
 # VQE Potential Energy Surface Pipeline
-
+![alt text](https://github.com/riyakayal/Molecular-Quantum-Algorithms/blob/main/docs/pes.png?raw=True)
 **Part of:** [Molecular-Quantum-Algorithms](https://github.com/riyakayal/Molecular-Quantum-Algorithms)
 
 A general-purpose pipeline for computing molecular potential energy surfaces (PES) using Variational Quantum Eigensolver (VQE) on a statevector simulator. Any diatomic or small polyatomic molecule can be scanned by setting a molecule name, R range, and ansatz selection. Classical CCSD and FCI references are computed automatically for each geometry point.
