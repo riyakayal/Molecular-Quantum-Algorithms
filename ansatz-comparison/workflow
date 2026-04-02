@@ -1,0 +1,16 @@
+#!/bin/bash
+# run VQE for a definite ansatz
+# on cluster
+bash ./submit.sh UCCSD
+
+# OR
+
+# on terminal
+python vqe_runner.py UCCSD
+
+# repeat with other ansatzes (XXXX = PUCCD or SUCCD or UCCGSD or UCCSD_reps2
+bash ./submit.sh XXXX
+
+# after all jobs are finished, comapare the ansatzes (can run even with 1 ansatz)
+# against each other  and CCSD and FCI.
+python compare_uccsd_ansatzes.py 
