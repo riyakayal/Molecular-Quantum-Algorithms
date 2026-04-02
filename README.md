@@ -1,5 +1,5 @@
 # Molecular-Quantum-Algorithms
-![alt text](https://github.com/riyakayal/Molecular-Quantum-Algorithms/docs/QA.png?raw=true)
+![alt text](https://github.com/riyakayal/Molecular-Quantum-Algorithms/blob/main/docs/QA.png?raw=true)
 Quantum algorithm implementations for molecular electronic structure: VQE with UCCSD, SUCCD, PUCCD, UCCGSD, ADAPT-VQE, and OO-VQE ansätze on a statevector simulator. Includes a general PES pipeline, spectroscopic constant extraction, and systematic ansatz benchmarking. Classical CCSD/FCI references throughout.
 
 
