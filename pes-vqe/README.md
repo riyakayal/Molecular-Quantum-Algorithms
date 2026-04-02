@@ -181,6 +181,6 @@ Each JSON result file contains all parameters needed to reproduce or extend the 
 This pipeline is one component of **quantum-molecule-algorithms**:
 
 - `pes-vqe/` — this repository (general PES pipeline; LiH example)
-- `ansatz-comparison/` — UCCSD / UCCGSD / PUCCD / SUCCD at equilibrium (LiH·H₂)
+- `ansatz-comparison/` — UCCSD / UCCGSD / PUCCD / SUCCD at equilibrium (LiH)
 - `adapt-vqe/` — adaptive circuit construction
 - `oo-vqe/` — orbital-optimised VQE for hydrogen-bonded complexes
