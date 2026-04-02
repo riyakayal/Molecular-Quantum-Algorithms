@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# 1. Submit all jobs
+bash submit_pes.sh
+
+# 2. Check progress anytime
+bash check_pes.sh
+
+# 3. After all done — basic PES plots
+python plot_pes.py
+
+# 4. Spectroscopic constants + extended plots
+python spectr_consts.py
+
+# Note: submit_pes.sh submits one independent job per (R, ansatz) pair and skips already-completed points — safe to rerun if some jobs fail.

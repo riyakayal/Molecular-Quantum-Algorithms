@@ -1,0 +1,19 @@
+# 1. Activate and install everything
+source /hsnfs/users/kayal/venv_vqe/bin/activate
+pip install --upgrade pip
+pip install "symengine==0.11.0" \
+            "qiskit==1.2.4" \
+            "qiskit-algorithms==0.3.1" \
+            "qiskit-aer==0.15.1" \
+            "qiskit-nature==0.7.2" \
+            "numpy==1.26.4" \
+            "scipy==1.13.1" \
+            "h5py==3.11.0" \
+            "pyscf==2.12.1" \
+            "pyberny==0.6.3"
+
+# 2. Verify
+source /hsnfs/users/kayal/venv_vqe/bin/activate
+python3.9 -c "import qiskit, qiskit_algorithms, qiskit_aer, qiskit_nature, symengine, pyscf; \
+              print(qiskit.__version__, qiskit_algorithms.__version__, \
+                    qiskit_aer.__version__, symengine.__version__, pyscf.__version__)"
