@@ -38,7 +38,7 @@ All are constructed from `qiskit_nature.second_q.circuit.library` with a `Hartre
 
 ## Example output: LiH / STO-3G
 
-System: 4 electrons, 6 spatial orbitals, 8 qubits (tapered). Three ansätze completed; UCCGSD, UCCSD\_reps2, and EfficientSU2 not yet run.
+System: 4 electrons, 6 spatial orbitals, 8 qubits (tapered). Three ansätze completed; UCCGSD and UCCSD\_reps2 not yet run.
 
 ### Results table
 
