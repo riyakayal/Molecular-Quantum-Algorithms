@@ -168,5 +168,4 @@ Output goes to `ansatz_comparison/`.
 
 - `pes-vqe/` — general PES scanning pipeline (any molecule, any bond coordinate)
 - `ansatz-comparison/` — this repository
-- `adapt-vqe/` — adaptive circuit construction
-- `oo-vqe/` — orbital-optimised VQE for hydrogen-bonded complexes
+  
