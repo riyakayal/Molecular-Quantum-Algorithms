@@ -1,0 +1,42 @@
+Building Estimator...
+
+============================================================
+  LiH / SUCCD / R=1.7500 Å / sto-3g
+============================================================
+
+============================================================
+MOLECULE SETUP: custom
+  Basis:  sto-3g  Charge: 0  Spin: 0
+  Custom molecule
+============================================================
+  Geometry saved: ./custom.xyz
+
+[RHF]
+  E(HF)   = -7.8538396018 Ha
+[CCSD]
+  E(CCSD) = -7.8771743260 Ha
+  E_corr  = -0.0233347241 Ha
+  nocc=2  nvirt=4  max|T1|=0.045002  max|T2|=0.128529
+[FCI]
+  E(FCI)  = -7.8771870023 Ha
+
+[Summary]
+  E(HF)   = -7.8538396018 Ha
+  E(CCSD) = -7.8771743260 Ha
+  E(FCI)  = -7.8771870023 Ha
+  FCI-CCSD gap = -0.0127 mHa
+  Correlation energy (CCSD): -23.3347 mHa
+  E(HF)   = -7.85383960 Ha
+  E(CCSD) = -7.87717433 Ha
+  E(FCI)  = -7.87718700 Ha
+  Qubits=8  Params=24  Depth=1314
+  Optimizer: L-BFGS-B(maxiter=200)
+    Eval   20: -7.87460804 Ha  Best: -7.87460804 Ha
+
+  VQE  = -7.87460848 Ha
+  CCSD = -7.87717433 Ha
+  FCI  = -7.87718700 Ha
+  Error vs CCSD: +2.566 mHa
+  Corr recovered: 89.00%
+  Wall time: 21.2 min
+  Saved: /hsnfs/users/kayal/jobs/quantum_algo/pes_claude/pes_results/LiH_SUCCD_R1.7500.json
