@@ -1,6 +1,6 @@
 # Molecular-Quantum-Algorithms
 ![alt text](https://github.com/riyakayal/Molecular-Quantum-Algorithms/blob/main/docs/QA.png?raw=true)
-Quantum algorithm implementations for molecular electronic structure: VQE with UCCSD, SUCCD, PUCCD, UCCGSD, ADAPT-VQE, and OO-VQE ansätze on a statevector simulator. Includes a general PES pipeline, spectroscopic constant extraction, and systematic ansatz benchmarking. Classical CCSD/FCI references throughout.
+Quantum algorithm implementations for molecular electronic structure: VQE with UCCSD, SUCCD, PUCCD, UCCGSD and UCCSD_reps2 ansätze on a statevector simulator. Includes a general PES pipeline, spectroscopic constant extraction, and systematic ansatz benchmarking. Classical CCSD/FCI references throughout.
 
 
 ## Sub-repositories
@@ -15,15 +15,6 @@ A molecule-agnostic pipeline for computing PES curves with VQE. Supports any dia
 
 Comparison of UCCSD, UCCGSD, PUCCD, SUCCD, and UCCSD(reps=2) for molecular systems at fixed geometry. Benchmarks parameter count, circuit depth, correlation recovery, and wall time. Demonstrates the accuracy-cost tradeoff and the importance of CCSD amplitude initialisation. LiH·H₂ / STO-3G is the primary example.
 
-### [`adapt-vqe/`](./adapt-vqe/)
-**Adaptive circuit construction**
-
-ADAPT-VQE with a singles/doubles operator pool. Circuits are grown iteratively by selecting operators with the largest energy gradient. Demonstrates parameter economy versus fixed-structure ansätze. COBYLA sub-optimisation at each operator addition step.
-
-### [`oo-vqe/`](./oo-vqe/)
-**Orbital-optimised VQE**
-
-OO-VQE alternating between circuit parameter optimisation and orbital gradient descent via anti-Hermitian rotation of MO coefficients. Benchmarked against UCCSD and ADAPT-VQE on hydrogen-bonded molecular complexes.
 
 ---
 
