@@ -178,7 +178,7 @@ Each JSON result file contains all parameters needed to reproduce or extend the 
 
 ## Part of the larger project
 
-This pipeline is one component of **quantum-molecule-algorithms**:
+This pipeline is one component of **Molecular-Quantum-Algorithms**:
 
 - `pes-vqe/` — this repository (general PES pipeline; LiH example)
 - `ansatz-comparison/` — UCCSD / UCCGSD / PUCCD / SUCCD at equilibrium 
