@@ -1,5 +1,5 @@
 ================================================================================
-VQE ANSATZ COMPARISON — LiH·H₂ / STO-3G
+VQE ANSATZ COMPARISON — LiH·H2 / STO-3G
 ================================================================================
 
 HF   reference: -7.8619926887 Ha
@@ -10,13 +10,16 @@ Ansatz           Params   Depth   VQE Final (Ha)  Error (mHa)  Best (mHa)  Corr 
 --------------------------------------------------------------------------------
 PUCCD                 8       1    -7.8779860740       +4.390          OK     78.46
 SUCCD                16       1    -7.8799932430       +2.383          OK     88.31
+UCCGSD               71       1    -7.8823845874       -0.008          OK    100.04
 UCCSD                34       1    -7.8823763388       +0.000          OK    100.00
+UCCSD_reps2          68       1    -7.8823869247       -0.010          OK    100.05
 
 CCSD Initial Point Quality:
 Ansatz           Non-zero  Coverage%    E_init (Ha)  ΔE_init (mHa)
 -----------------------------------------------------------------
 PUCCD                   8      100.0  -7.8775227570         +4.854
 SUCCD                  16      100.0  -7.8775227570         +4.854
+UCCGSD                 32       45.1  -7.8775227570         +4.854
 UCCSD                  34      100.0  -7.8775227570         +4.854
+UCCSD_reps2            34       50.0  -7.8775227570         +4.854
 
-Missing ansatze (not yet run): ['UCCGSD', 'UCCSD_reps2', 'EfficientSU2']
