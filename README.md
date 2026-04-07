@@ -15,8 +15,8 @@ A molecule-agnostic pipeline for computing PES curves with VQE. Supports any dia
 
 Comparison of UCCSD, UCCGSD, PUCCD, SUCCD, and UCCSD(reps=2) for molecular systems at fixed geometry. Benchmarks parameter count, circuit depth, correlation recovery, and wall time. Demonstrates the accuracy-cost tradeoff and the importance of CCSD amplitude initialisation. LiH·H₂ / STO-3G is the primary example.
 
-###[`adapt-vqe/`](./adapt-vqe/)
-Adaptive circuit construction
+### [`adapt-vqe/`](./adapt-vqe/)
+**Adaptive circuit construction**
 ADAPT-VQE with a singles/doubles operator pool. Circuits are grown iteratively by selecting operators with the largest energy gradient. Demonstrates parameter economy versus fixed-structure ansätze. 
 
 ## Technical stack
