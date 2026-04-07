@@ -17,6 +17,7 @@ Comparison of UCCSD, UCCGSD, PUCCD, SUCCD, and UCCSD(reps=2) for molecular syste
 
 ### [`adapt-vqe/`](./adapt-vqe/)
 **Adaptive circuit construction**
+
 ADAPT-VQE with a singles/doubles operator pool. Circuits are grown iteratively by selecting operators with the largest energy gradient. Demonstrates parameter economy versus fixed-structure ansätze. 
 
 ## Technical stack
