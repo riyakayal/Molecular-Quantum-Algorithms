@@ -102,7 +102,7 @@ Both ansätze diverge at stretched geometries, motivating adaptive methods (ADAP
 | Initial point | CCSD T1/T2 amplitudes |
 | Simulator | Qiskit Aer statevector, seed=42 |
 | Reproducibility | OMP_NUM_THREADS=1, seed_simulator=42 |
-| HPC | Forschungszentrum Jülich PGI cluster, ep29th partition |
+
 
 ---
 
@@ -181,4 +181,5 @@ Each JSON result file contains all parameters needed to reproduce or extend the 
 This pipeline is one component of **Molecular-Quantum-Algorithms**:
 
 - `pes-vqe/` — this repository (general PES pipeline; LiH example)
-- `ansatz-comparison/` — UCCSD / UCCGSD / PUCCD / SUCCD at equilibrium 
+- `ansatz-comparison/` — UCCSD / UCCGSD / PUCCD / SUCCD at equilibrium
+- `adapt-vqe/` — numpy based adapt-vqe code (any molecule,  any bond coordinate)
