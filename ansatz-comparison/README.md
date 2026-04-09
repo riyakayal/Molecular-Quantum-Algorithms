@@ -174,7 +174,6 @@ Output goes to `ansatz_comparison/`.
 | Gradients | Parameter-shift via `ParamShiftEstimatorGradient` |
 | Initial point | CCSD T1/T2 amplitudes (blocked spin-orbital mapping) |
 | Reproducibility | `OMP_NUM_THREADS=1`, exact statevector (no sampling) |
-| HPC | Forschungszentrum Jülich PGI cluster, ep29th partition |
 
 ---
 
@@ -182,6 +181,7 @@ Output goes to `ansatz_comparison/`.
 
 - `pes-vqe/` — general PES scanning pipeline (any molecule, any bond coordinate)
 - `ansatz-comparison/` — this repository
+- `adapt-vqe/` — numpy based adapt-vqe code (any molecule,  any bond coordinate)
 
 
 
