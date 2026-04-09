@@ -173,7 +173,6 @@ Results are saved to `vqe_analysis/results.json` and `vqe_analysis/results_summa
 | Optimiser | L-BFGS-B with analytic forward-backward gradient |
 | State evolution | `scipy.sparse.linalg.expm_multiply` |
 | FCI reference | ARPACK sparse eigensolver (`scipy.sparse.linalg.eigsh`) |
-| HPC | Forschungszentrum Jülich PGI cluster, ep29th partition |
 
 ---
 
